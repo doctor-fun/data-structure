@@ -6,10 +6,6 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		57C43B501FB41BDA009F7BCD /* bst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C43B4E1FB41BDA009F7BCD /* bst.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		57C43B421FB41A80009F7BCD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,8 +20,7 @@
 
 /* Begin PBXFileReference section */
 		57C43B441FB41A80009F7BCD /* data-structure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "data-structure"; sourceTree = BUILT_PRODUCTS_DIR; };
-		57C43B4E1FB41BDA009F7BCD /* bst.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bst.cpp; sourceTree = "<group>"; };
-		57C43B4F1FB41BDA009F7BCD /* bst.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = bst.hpp; sourceTree = "<group>"; };
+		57C43B521FB425D7009F7BCD /* 堆排序.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = "堆排序.hpp"; path = "08排序/堆排序.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +53,7 @@
 		57C43B461FB41A80009F7BCD /* data-structure */ = {
 			isa = PBXGroup;
 			children = (
-				57C43B4E1FB41BDA009F7BCD /* bst.cpp */,
-				57C43B4F1FB41BDA009F7BCD /* bst.hpp */,
+				57C43B521FB425D7009F7BCD /* 堆排序.hpp */,
 			);
 			path = "data-structure";
 			sourceTree = "<group>";
@@ -121,7 +115,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57C43B501FB41BDA009F7BCD /* bst.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
