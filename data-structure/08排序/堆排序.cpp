@@ -7,7 +7,7 @@
 //
 
 
-
+//堆排序的前提是已经有一个数组，一旦有了一个数组，那么完全二叉树的所有结点的基础位序就确定了，后面直接进行多轮调整就可以了
 #include <stdio.h>
 #include <vector>
 #include <algorithm>
