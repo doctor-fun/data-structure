@@ -66,4 +66,6 @@ void right_rotation(node * root)
     
 }
 
+//lr和rl二叉树的翻转和插入树的结构一致，lr先局部左转，再在此基础上局部右转
+//rl同理
 
