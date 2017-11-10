@@ -45,17 +45,24 @@ int getBalanceFactor(node* root)
   //左子树高度减去右子树的高度;
   return getHeight(root->lchild)-getHeight(root->rchild);
 }
-void left_rotor(node* &root)
+void left_rotation(node* &root)
 {
-    node * temp =root->rchild;//新的temp根指向右子
-    root->rchild=temp->lchild;//
+    node * temp =root->rchild;//temp指向新的根结点
+    root->rchild=temp->lchild;
     temp->lchild=root;
     updateheight(root);
     updateheight(temp);
     root=temp;
     
-    
-    
+}
+void right_rotation(node * root)
+{
+    node * temp=root->lchild;
+    root->lchild=temp->rchild;
+    temp->rchild=root;
+    updateheight(root);
+    updateheight(temp);
+    root=temp;
     
 }
 
