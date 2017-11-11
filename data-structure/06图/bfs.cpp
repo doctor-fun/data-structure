@@ -6,7 +6,7 @@
 //  Copyright © 2017年 晨 方. All rights reserved.
 //
 
-#include "bfs.hpp"
+
 #include <queue>
 using namespace std;
 const int maxn=100;
@@ -47,11 +47,7 @@ void bfstrave()
         if (have_in_queue[u]==false)
         {
             BFS(u);//遍历u所在的连通快
-            
         }
-        
     }
-    
-    
 }
 
