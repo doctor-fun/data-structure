@@ -5,8 +5,8 @@
 //  Created by 晨 方 on 2017/11/11.
 //  Copyright © 2017年 晨 方. All rights reserved.
 //
-//dfs每次都是沿着路径到不能再前进时才退回到最近的岔路口（前进过程中选择哪个结点进行前进？顺时针第一个，或者领接表第一个）
-#include "图.hpp"
+//dfs每次都是沿着路径到不能再前进时才退回到最近的岔路口（前进过程中选择哪个结点进行前进？->顺时针第一个，或者领接表第一个）
+
 #include <vector>
 using namespace std;
 struct node{
