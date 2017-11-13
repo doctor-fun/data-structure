@@ -37,7 +37,7 @@ bool topologiscalSort()
         for(int i=0;i<G[u].size();i++)
         {
             int v=G[u][i];
-            indegree[v]--;
+            indegree[v]--;//因为所有的0入度结点都已经在此步之前入队，所以这里不会出现它的领接结点入度为0的情况
             if(indegree[v]==0)
             {
                 q.push(v);
