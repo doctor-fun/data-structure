@@ -15,7 +15,7 @@ const int maxn=100;
 //常用于判断有向无环图
 //拓扑是研究几何图形或空间在连续改变形状后还能保持不变的一些性质的一个学科。它只考虑物体间的位置关系而不考虑它们的形状和大小。
 vector<int> G[maxn];//领接表统计入度
-int n,indegree[maxn];//
+int n,indegree[maxn];//所有的结点的入度在算法开始前都应该已经计算好了的
 //n 表示图的实际结点数
 bool topologiscalSort()
 {
