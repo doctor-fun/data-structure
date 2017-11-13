@@ -34,7 +34,7 @@ bool topologiscalSort()
     {
         int u=q.front();
         q.pop();
-        for(int i=0;i<G[u].size();i++)
+        for(int i=0;i<G[u].size();i++)//队首结点的领接结点的处理过程；
         {
             int v=G[u][i];
             indegree[v]--;//因为所有的0入度结点都已经在此步之前入队，所以这里不会出现它的领接结点入度为0的情况
@@ -44,7 +44,7 @@ bool topologiscalSort()
             }
         }
         G[u].clear();//将处理完的结点在领结表中删除
-        num++;
+        num++;//要注意这个在while里面，每处理完一个结点做好删除和记录工作
     }
     if(num==n) return true;
     else return false;
