@@ -12,6 +12,7 @@
 		57B607BC1FB69F56005F223C /* bfs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B607BA1FB69F56005F223C /* bfs.cpp */; };
 		57C43B581FB436CF009F7BCD /* 堆排序.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C43B571FB436CF009F7BCD /* 堆排序.cpp */; };
 		57C6C5611FB9AD9F00FDC573 /* 拓扑排序.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C6C55F1FB9AD9F00FDC573 /* 拓扑排序.cpp */; };
+		57C6C5641FB9C4EB00FDC573 /* 最短路径.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C6C5621FB9C4EB00FDC573 /* 最短路径.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,8 @@
 		57C43B441FB41A80009F7BCD /* data-structure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "data-structure"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C43B571FB436CF009F7BCD /* 堆排序.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "堆排序.cpp"; path = "08排序/堆排序.cpp"; sourceTree = "<group>"; };
 		57C6C55F1FB9AD9F00FDC573 /* 拓扑排序.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "拓扑排序.cpp"; path = "06图/拓扑排序.cpp"; sourceTree = "<group>"; };
+		57C6C5621FB9C4EB00FDC573 /* 最短路径.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "最短路径.cpp"; path = "06图/最短路径.cpp"; sourceTree = "<group>"; };
+		57C6C5631FB9C4EB00FDC573 /* 最短路径.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = "最短路径.hpp"; path = "06图/最短路径.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				57B607B71FB6915C005F223C /* dfs.cpp */,
 				57B607BA1FB69F56005F223C /* bfs.cpp */,
 				57C6C55F1FB9AD9F00FDC573 /* 拓扑排序.cpp */,
+				57C6C5621FB9C4EB00FDC573 /* 最短路径.cpp */,
+				57C6C5631FB9C4EB00FDC573 /* 最短路径.hpp */,
 			);
 			path = "data-structure";
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57B607B91FB6915C005F223C /* dfs.cpp in Sources */,
+				57C6C5641FB9C4EB00FDC573 /* 最短路径.cpp in Sources */,
 				579F4DC61FB53EF70040E504 /* 平衡二叉树.cc in Sources */,
 				57C43B581FB436CF009F7BCD /* 堆排序.cpp in Sources */,
 				57B607BC1FB69F56005F223C /* bfs.cpp in Sources */,
