@@ -8,6 +8,8 @@
 
 #include<iostream>
 #include <queue>
+
+//prim适用于稠密图
 using namespace std;
 
 //与dijkstra算法除了dist[]的定义不同外，其他一致，dijkstra算法的dist定义的是start到当前点的当下最短距离，而最小生成树定义的dist是当前集合到集合外未访问结点的最短距离
@@ -58,3 +60,7 @@ int prim()
     
     
 }
+
+
+//稀疏图
+kruskal(int n,int m)
