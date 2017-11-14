@@ -36,7 +36,7 @@ int prim()
         int u=-1,MIN=INF;
         for(int j=0;j<n;j++)
         {
-                if(had_visited[j]==false&&dist_set[j]<MIN)
+                if(had_visited[j]==false && dist_set[j]<MIN)
                 {
                     u=j;
                     MIN=dist_set[j];
