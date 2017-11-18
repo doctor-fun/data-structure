@@ -21,7 +21,7 @@ void Bubble_Sort(ElemType A[],int n)
 
 }
 
-void Insertion_Sort (ElemType a[],int n)//(抓一手牌的过程 )
+void Insertion_Sort (ElemType a[],int n)//(从桌上(所有牌都黑的排列好)抓一手牌的过程 )
 {
   for( int p=1;p<n;p++)//从前往后摸牌，摸第p张牌的时候其实手上已经有1（0）+p-1=p张牌 了
   {
