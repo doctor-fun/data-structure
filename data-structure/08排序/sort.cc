@@ -23,26 +23,26 @@ void Bubble_Sort(ElemType A[],int n)
 
 void Insertion_Sort (ElemType a[],int n)//(抓一手牌的过程 )
 {
-  for(p=1;p<n;p++)//从前往后摸牌，摸第p张牌的时候其实手上已经有1（0）+p-1=p张牌 了
+  for( int p=1;p<n;p++)//从前往后摸牌，摸第p张牌的时候其实手上已经有1（0）+p-1=p张牌 了
   {
-      tmp=a[p];//摸下一张牌
-      for(i=p;i>0 && a[i-1]>tmp;i--)//新摸的这张tmp牌先放到手上，然后和手上最后一张牌逐次向手上的前面牌进行对比(i--),
+      int tmp=a[p];//摸下一张牌
+      for(int i=p;i>0 && a[i-1]>tmp;i--)//新摸的这张tmp牌先放到手上，然后和手上最后一张牌逐次向手上的前面牌进行对比(i--),
       //比新摸牌要大的全部后移一个位置
       {
         a[i]=a[i-1];//如果手上的牌比新摸的牌大,就要将手上的牌往后移一个位置。刚开始i-1=p,则i=p+1
       }
       //此时走出循环i的最终结果为i=i-1;
-    a[i]=tmp//新牌落位
+      a[i]=tmp;//新牌落位
   }
 }
 
 void Select_Sort(Elemtype a[],int n)//从小到大开始排位，寻找每一趟里面最大的值的游标，将
 {
-  for(i=0;i<n-1;i++)//要确定n-1个位置的，第n个位置自然会形成
+  for(int i=0;i<n-1;i++)//要确定n-1个位置的，第n个位置自然会形成
   {
-    min=i;
+    int min=i;
     {
-      for(j=i+1;j<n;j++)
+      for(int j=i+1;j<n;j++)
       if(a[j]<a[min]) min=j;
       if(min!=j) swap(a[i],a[min]);
     }

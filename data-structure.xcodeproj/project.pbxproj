@@ -40,6 +40,7 @@
 		57C6C5651FBA8B3000FDC573 /* 最小生成树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "最小生成树.cpp"; path = "06图/最小生成树.cpp"; sourceTree = "<group>"; };
 		57C6C5681FBAB5CF00FDC573 /* 并查集.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "并查集.cpp"; path = "05_1平衡二叉树/并查集.cpp"; sourceTree = "<group>"; };
 		57C6C5691FBAB5CF00FDC573 /* 并查集.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = "并查集.hpp"; path = "05_1平衡二叉树/并查集.hpp"; sourceTree = "<group>"; };
+		57C6C57F1FBF08F500FDC573 /* 领接矩阵(邻接表等).md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "领接矩阵(邻接表等).md"; path = "06图/领接矩阵(邻接表等).md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 				57C6C5651FBA8B3000FDC573 /* 最小生成树.cpp */,
 				57C6C5681FBAB5CF00FDC573 /* 并查集.cpp */,
 				57C6C5691FBAB5CF00FDC573 /* 并查集.hpp */,
+				57C6C57F1FBF08F500FDC573 /* 领接矩阵(邻接表等).md */,
 			);
 			path = "data-structure";
 			sourceTree = "<group>";
