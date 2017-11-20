@@ -8,6 +8,7 @@
 
 #include<iostream>
 #include <queue>
+//prim的教材书上算法：核心，每轮从当前轮中找到，dist中最小的的destination_point的下标i，放进_has_found_least[]标记数组中（_has_found_least[i]=1），表示源点到此点的最短路径已经找到.(原理：如果在下一轮时，源点到这个min点的距离还可以进行更新，即仍然有比当前轮更短的（源点到min点）的距离，那么它一定是通过当前轮的兄弟结点作为中介抵达这个min点的，而源点到兄弟结点（min点的）的最短距离已经大于源点到min点的距离，如果再加上兄弟结点到min点的距离更加大于前一轮中源点到min点的距离了)
 
 //prim适用于稠密图
 using namespace std;
