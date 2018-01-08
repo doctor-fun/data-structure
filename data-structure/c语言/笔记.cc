@@ -41,4 +41,5 @@ int main(int argc,char const *argv[])
 }
 while(!foef(fp1));
 fp=fopen(fname," ");这里的双引号别忘了加
+2^n=pow(2,n);
 
