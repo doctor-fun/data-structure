@@ -27,3 +27,15 @@ continue 退出当前循环
 二维数组赋初值{{},{},{}},一行一行的进行定义，没定义的自动赋为0；
 string.h:memset(数组名，值，sizeof(数组名))
 fill  std::fill(v.begin(), v.end(), -1);
+gets 识别\n作为结束符
+puts 自动带一个\n
+如果先scanf再gets,则需要scanf+getchar()+gets();因为scanf输入结束提交时要输入\n，而scanf并不会接收\n,如果没有getchar,则gets()接收到\n,
+那么此时scanf和gets都结束了
+只有scanf和gets会自动在字符串后面加\0
+strlen()可以得到第一个\0前的字符的个数
+
+void swap(int & a,int &b)
+{
+    int tmp;
+    tmp=a;a=b;b=tmp;
+}
